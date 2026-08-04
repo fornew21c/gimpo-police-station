@@ -15,6 +15,7 @@ import { POP_FACTS, POP_SOURCE, COMMUTE_CLAIM } from "@/data/transit";
 import { PROMISES } from "@/data/civic";
 import { StageBadge } from "@/components/stage-badge";
 import { BannerSlogans } from "@/components/banner-slogans";
+import { PetitionNotice } from "@/components/petition-notice";
 
 export default function HomePage() {
   return (
@@ -40,9 +41,9 @@ export default function HomePage() {
               {VISION.lead}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href="/analysis">데이터 근거 보기 →</ButtonLink>
-              <ButtonLink href="/route-map" variant="ghost">
-                노선도 보기
+              <ButtonLink href="#petition">지금 민원 참여하기 →</ButtonLink>
+              <ButtonLink href="/analysis" variant="ghost">
+                데이터 근거 보기
               </ButtonLink>
             </div>
             <p className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink-muted">
@@ -59,6 +60,9 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* ---------------- 민원 공지 (접속 직후 바로 참여) ---------------- */}
+      <PetitionNotice />
 
       {/* ---------------- 요구 · 슬로건 (현수막 스타일) ---------------- */}
       <BannerSlogans />

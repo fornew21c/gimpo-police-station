@@ -41,9 +41,9 @@ export default function HomePage() {
               {VISION.lead}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href="#petition">지금 민원 참여하기 →</ButtonLink>
-              <ButtonLink href="/analysis" variant="ghost">
-                데이터 근거 보기
+              <ButtonLink href="/analysis">데이터 근거 보기 →</ButtonLink>
+              <ButtonLink href="/route-map" variant="ghost">
+                노선도 보기
               </ButtonLink>
             </div>
             <p className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink-muted">

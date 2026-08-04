@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+<style>
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  :root{ --yellow:#F2C200; --red:#E4002B; --teal:#31d0c6; }
+  html,body{ width:1200px; height:630px; }
+  body{
+    font-family:"Pretendard Variable",Pretendard,sans-serif;
+    background:
+      radial-gradient(80% 120% at 88% -10%, #17263a 0%, transparent 55%),
+      radial-gradient(70% 100% at 0% 110%, #10202f 0%, transparent 55%),
+      #0b0b0d;
+    color:#fff; position:relative; overflow:hidden;
+    padding:64px 72px; display:flex; flex-direction:column; justify-content:space-between;
+  }
+  /* 상단 브랜드 */
+  .top{ display:flex; align-items:center; gap:14px; }
+  .mark{ width:52px; height:52px; }
+  .wm{ font-size:25px; font-weight:800; letter-spacing:-.02em; color:#fff; }
+  .wm b{ color:var(--yellow); }
+  .pill{ margin-left:auto; font-size:17px; font-weight:800; color:#0b0b0d;
+    background:var(--yellow); padding:8px 18px; border-radius:999px; }
+  /* 중앙 헤드라인 */
+  .mid{ margin-top:6px; }
+  .eyebrow{ font-size:26px; font-weight:800; color:var(--yellow); letter-spacing:-.01em; }
+  .title{ margin-top:12px; font-size:92px; line-height:.98; font-weight:900; letter-spacing:-.045em; }
+  .hl{ display:inline-block; background:var(--yellow); color:#0b0b0d; padding:0 16px; border-radius:10px; }
+  .demand{ margin-top:26px; font-size:30px; font-weight:800; letter-spacing:-.02em; color:#fff; }
+  .demand .r{ color:var(--red); }
+  /* 하단 스탯 + 발신 */
+  .bottom{ display:flex; align-items:flex-end; justify-content:space-between; }
+  .stats{ display:flex; gap:12px; }
+  .chip{ background:rgba(255,255,255,.06); border:1.5px solid rgba(255,255,255,.14);
+    border-radius:16px; padding:14px 22px; }
+  .chip .n{ font-size:34px; font-weight:900; letter-spacing:-.02em; }
+  .n.y{ color:var(--yellow); } .n.r{ color:var(--red); } .n.t{ color:var(--teal); }
+  .chip .l{ font-size:15px; color:#aab4c0; font-weight:600; margin-top:2px; }
+  .org{ text-align:right; }
+  .org .who{ font-size:19px; font-weight:800; color:#fff; }
+  .org .site{ font-size:17px; font-weight:700; color:var(--yellow); margin-top:5px; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <svg class="mark" viewBox="0 0 40 40" fill="none">
+      <rect width="40" height="40" rx="10" fill="#F2C200"/>
+      <path d="M11 27 L20 13 L29 27" stroke="#0b0b0d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+      <circle cx="11" cy="27" r="3.4" fill="#0b0b0d"/>
+      <circle cx="20" cy="13" r="3.4" fill="#E4002B" stroke="#0b0b0d" stroke-width="2"/>
+      <circle cx="29" cy="27" r="3.4" fill="#0b0b0d"/>
+    </svg>
+    <span class="wm">김포경찰서<b>역</b></span>
+    <span class="pill">5호선 신설 촉구</span>
+  </div>
+
+  <div class="mid">
+    <div class="eyebrow">본선은 확정됐다. 이제 역이다.</div>
+    <div class="title">5호선<br/><span class="hl">김포경찰서역 신설</span></div>
+    <div class="demand">대광위·경기도는 <span class="r">기본계획에 반영하라</span></div>
+  </div>
+
+  <div class="bottom">
+    <div class="stats">
+      <div class="chip"><div class="n t">9개역</div><div class="l">예타 통과 · 본선 확정</div></div>
+      <div class="chip"><div class="n r">4.2km</div><div class="l">감정~장기 무정차</div></div>
+      <div class="chip"><div class="n y">50만</div><div class="l">김포시민</div></div>
+    </div>
+    <div class="org">
+      <div class="who">김포경찰서역 추진위원회</div>
+      <div class="site">김포경찰서역 신설 촉구</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -139,7 +139,7 @@ export default function ActionPage() {
 
       {/* ---------------- 무엇을 쓰는가 ---------------- */}
       <Section id="what">
-        <SectionTitle desc="아래를 복사해 쓰되, '2. 신청인' 항목만은 본인의 이동 사정을 직접 적어주세요.">
+        <SectionTitle desc="실제로 접수된 민원 원문입니다. 그대로 복사해 쓰되, 본인의 이동 사정을 한두 문장 덧붙여 주세요.">
           무엇을 쓰는가
         </SectionTitle>
         <div className="grid gap-4">
@@ -147,12 +147,11 @@ export default function ActionPage() {
           <CopyBlock label="민원 내용" text={PETITION_BODY} />
         </div>
         <p className="mt-4 text-xs leading-relaxed text-ink-muted">
-          ※ 본문에 인용된 사실(역간거리 4.2km, 골드라인 혼잡률 289%, B/C {PRE_FEASIBILITY.bc.value} · AHP{" "}
-          {PRE_FEASIBILITY.ahp.value}, 백서 문구)은 모두 이 사이트{" "}
+          ※ 본문이 인용한 두 문서 — KDI 예비타당성조사 정책제언과 김포시 인수위 활동백서 — 는 모두 이 사이트{" "}
           <Link href="/resources" className="font-bold text-brand hover:underline">
             자료실
           </Link>
-          에 출처와 함께 공개돼 있습니다.
+          에서 원문을 확인할 수 있습니다.
         </p>
       </Section>
 

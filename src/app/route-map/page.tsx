@@ -14,7 +14,7 @@ export default function RouteMapPage() {
       <PageHeader
         eyebrow="노선도"
         title="방화에서 한강2지구, 그 사이 김포경찰서역"
-        lead="서울 5호선 김포·검단 연장(방화~한강2지구, 25.8km, 9개역)은 2026년 3월 예비타당성조사를 통과해 확정됐습니다. 다만 감정역~장기역 4.2km 구간엔 정차역이 없어, 그 중간에 김포경찰서역 신설이 촉구되고 있습니다."
+        lead="서울 5호선 김포·검단 연장(방화~한강2지구, 25.8km, 9개역)은 2026년 3월 예비타당성조사를 통과해 확정됐습니다. 다만 감정역~장기역 3.5km 구간엔 정차역이 없어, 그 중간에 김포경찰서역 신설이 촉구되고 있습니다."
       />
 
       {/* 노선 핵심 팩트 */}
@@ -60,7 +60,7 @@ export default function RouteMapPage() {
       <Section className="pt-0">
         <div className="grid gap-4 lg:grid-cols-2">
           <Callout title="왜 김포경찰서역인가" tone="brand">
-            확정된 <strong>감정역과 장기역 사이는 4.2km를 넘어</strong>, 그 중간 장기동 주민이
+            확정된 <strong>감정역과 장기역 사이 3.5km에는 정차역이 없어</strong>, 그 중간 장기동 주민이
             역 도보권 밖에 놓입니다. <strong>김포경찰서 인근(장기동)</strong>이 중간역으로
             적정하다는 분석이 제기되며, 역간거리 과다를 해소해 노선 효율과 이동권을 함께 높입니다.
           </Callout>

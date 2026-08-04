@@ -117,7 +117,7 @@ export default function HomePage() {
         </SectionTitle>
         <div className="grid gap-4 lg:grid-cols-2">
           <Card>
-            <h3 className="font-bold text-ink">본선은 확정, 장기동엔 무정차 4.2km</h3>
+            <h3 className="font-bold text-ink">본선은 확정, 장기동엔 무정차 3.5km</h3>
             <p className="mt-1 mb-4 text-sm text-ink-soft">
               김포 교통 핵심 지표
             </p>
@@ -249,7 +249,7 @@ export default function HomePage() {
                 본선은 확정됐다. 이제 김포경찰서역이다.
               </h2>
               <p className="mt-3 max-w-lg text-white/85">
-                감정~장기 4.2km 무정차 구간, 그 중간에 김포경찰서역을 신설해야
+                감정~장기 3.5km 무정차 구간, 그 중간에 김포경찰서역을 신설해야
                 장기동 주민의 이동권이 보장됩니다. 반영 여부는 <strong>2026년 하반기
                 경기도 기본계획 용역</strong>에서 갈립니다. 그 전에 의견이 닿아야 합니다.
               </p>
@@ -271,7 +271,7 @@ export default function HomePage() {
             </div>
             <div className="rounded-2xl bg-white/10 p-6 backdrop-blur">
               <div className="flex items-baseline justify-between">
-                <span className="tabular text-4xl font-extrabold">4.2</span>
+                <span className="tabular text-4xl font-extrabold">3.5</span>
                 <span className="text-white/70">km 무정차</span>
               </div>
               <p className="mt-1 text-sm text-white/80">감정역 ~ 장기역</p>

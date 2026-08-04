@@ -97,7 +97,7 @@ export default function AnalysisPage() {
         </div>
         <div className="mt-4">
           <Callout title="핵심 메시지" tone="brand">
-            본선은 확정됐지만 <strong>감정~장기 4.2km 무정차 구간</strong>의 장기동 주민은 역
+            본선은 확정됐지만 <strong>감정~장기 3.5km 무정차 구간</strong>의 장기동 주민은 역
             도보권 밖에 놓입니다. 김포경찰서역 신설은 집값이 아니라 <strong>이동권 격차</strong>를
             줄이는 균형발전 정책입니다. 정확한 경제효과·소외지수는 공인 방법론으로 산정해 순차 공개합니다.
           </Callout>

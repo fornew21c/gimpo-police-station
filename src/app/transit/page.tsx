@@ -13,7 +13,7 @@ export default function TransitPage() {
     <>
       <PageHeader
         eyebrow="교통 데이터"
-        title="본선은 확정, 장기동엔 무정차 4.2km"
+        title="본선은 확정, 장기동엔 무정차 3.5km"
         lead="김포 장기동의 교통 현실을 검증된 지표로 정리합니다. 실측이 필요한 지표는 임의값 대신 '자료 확보 중'으로 투명하게 표시합니다."
       />
 
@@ -35,7 +35,7 @@ export default function TransitPage() {
             <h2 className="font-bold text-ink">철도 접근성</h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">{RAIL_FACT}</p>
             <div className="mt-4 flex items-baseline gap-2 rounded-xl bg-signal-soft px-4 py-3">
-              <span className="tabular text-3xl font-extrabold text-signal">4.2</span>
+              <span className="tabular text-3xl font-extrabold text-signal">3.5</span>
               <span className="text-sm font-semibold text-signal">km · 감정~장기 무정차 구간</span>
             </div>
           </Card>
@@ -116,7 +116,7 @@ export default function TransitPage() {
       <Section className="pt-0">
         <Callout title="핵심 사실" tone="signal">
           서울 5호선 김포·검단 연장은 <strong>예타를 통과해 확정</strong>됐지만, 확정된 9개 역 사이{" "}
-          <strong>감정~장기 4.2km 구간엔 정차역이 없습니다</strong>. 그 중간에 위치한{" "}
+          <strong>감정~장기 3.5km 구간엔 정차역이 없습니다</strong>. 그 중간에 위치한{" "}
           <strong>김포경찰서역(장기동 인근)</strong>을 신설해야 장기동 주민의 이동권이 보장됩니다.
         </Callout>
         <p className="mt-4 text-xs text-ink-muted">※ {DATA_NOTE}</p>

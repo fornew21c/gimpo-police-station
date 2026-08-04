@@ -4,7 +4,7 @@
 export const POP_HEADLINE = [
   { label: "김포시 인구", value: "약 50만", unit: "명", sub: "2026.5", tone: "brand" as const },
   { label: "5호선 확정 정거장", value: "9", unit: "개", sub: "예타 통과", tone: "teal" as const },
-  { label: "감정~장기 역간거리", value: "4.2", unit: "km", sub: "무정차 구간", tone: "signal" as const },
+  { label: "감정~장기 역간거리", value: "3.5", unit: "km", sub: "무정차 구간", tone: "signal" as const },
   { label: "김포경찰서역", value: "미확정", unit: "", sub: "신설 촉구", tone: "signal" as const },
 ];
 

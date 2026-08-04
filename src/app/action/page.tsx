@@ -121,12 +121,17 @@ export default function ActionPage() {
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">{EPEOPLE.note}</p>
             <div className="mt-4 grid gap-2">
               <ButtonLink href={EPEOPLE.web}>웹으로 민원 넣기 ↗</ButtonLink>
-              <ButtonLink href={EPEOPLE.ios} variant="ghost">
-                iOS 앱 내려받기 ↗
-              </ButtonLink>
+              <div className="grid grid-cols-2 gap-2">
+                <ButtonLink href={EPEOPLE.android} variant="ghost">
+                  Android 앱 ↗
+                </ButtonLink>
+                <ButtonLink href={EPEOPLE.ios} variant="ghost">
+                  iOS 앱 ↗
+                </ButtonLink>
+              </div>
             </div>
-            <p className="mt-3 text-xs text-ink-muted">
-              안드로이드는 Play 스토어에서 &lsquo;국민신문고&rsquo;로 검색하세요. 전화 문의 {EPEOPLE.tel}
+            <p className="mt-3 text-xs leading-relaxed text-ink-muted">
+              {EPEOPLE.appNote} 전화 문의 {EPEOPLE.tel}
             </p>
           </Card>
         </div>
